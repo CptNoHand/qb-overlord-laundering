@@ -3,7 +3,7 @@ QBCore = exports['qb-core']:GetSharedObject() -- do not touch
 
 CONFIG = {} -- do not touch
 
-CONFIG['BaseTime'] = math.random(20,35) -- time in minutes the washing machine always takes
+CONFIG['BaseTime'] = math.random(10,25) -- time in minutes the washing machine always takes
 --CONFIG['BaseTime'] = 1
 
 CONFIG['TimePerItem'] = math.random(1,5) -- time in minutes each additional item of dirty money adds
